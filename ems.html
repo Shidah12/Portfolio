@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+ <html>
+	 <head>
+	 <title> NORSIDAH </title>
+	 <style>
+	   .header{
+		   color: #C99F35;
+		   height: 15%;
+		   width: 98.5%;
+		   background-color: #734C16;
+		   border:3px solid black;
+		   position: absolute;
+		   top: 1%; 
+		   right: 0px;         
+		   left: 0.5%;
+		}
+		
+		.header2{
+			width: 35%;
+			position: absolute;
+			
+			
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: left;
+			margin-left: 11.2%;
+			padding: 1.5%;
+		}
+		
+		.nav{
+			font-size: 20px;
+			font-family: Berlin Sans FB;
+		    text-align: right;
+			width: 65%;
+			padding-top: 3%;
+			
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: right;
+			
+		} 
+		
+		.Logo{
+			font-size: 60px;
+			font-family: Gill Sans Ultra Bold;
+			color: #C99F35;
+			
+		}
+		
+		.container{
+			background-color:#C99F35;
+			margin-top: 10%;
+			border: 2.5px solid #000012;		
+			/*flex properties for container*/
+			display: flex;
+			justify-content: left;
+			height: 110vh;
+			display: flex;
+			
+		}
+		
+		.item1{
+			background-color:#734C16;
+			width:50%;
+			border-right: 2.5px solid black;
+			
+			
+		}
+		
+		img{
+			height: 700px;
+			width: 550px;
+			padding-top: 45px;
+			padding-left: 50px;
+			padding-right: 55px;
+		}
+		
+		.item2{
+			background-color:#C99F35;
+			width:50%;
+			border-right:2.5px solid black;
+			font-family:Impact;
+			font-size: 70px;
+			color: #C99F35;
+			align-text: center;
+			justify-content: center;
+			
+			display:flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.name{
+			font-family:Impact;
+			font-size: 80px;
+			color: #734C16;
+		}
+		
+		.wow{
+			font-family: Kozuka Gothic Pro EL;
+			font-size: 20px;
+			color: #734C16;
+		}
+		
+		.footer{
+		    background-color: #C99F35;
+			margin-top: 1%;
+			border: 1.5px 
+			
+			//font-family: ARIAL;
+			padding-top: 0.5%;
+			font-size: 18px;
+			color: #734C16;
+			
+			/*flex properties for header*/
+			display: flex;
+			justify-content: center;
+			height: 5vh;
+			flex-wrap: no-wrap;
+			border: 2px solid black;
+			
+		}
+		
+		@media (max-width: 620px){
+		
+		.header{
+			flex-wrap: wrap;
+			row-gap: 10px;
+			display: flex;
+			flex-direction: column;
+			height: 24%;
+			padding-right: 70%;
+			padding-left: 10%;
+			width: 17%;
+			justify-items: center;
+			
+			
+		}
+		
+		.Logo{
+			font-size: 55px;
+			flex-direction: column;
+			display: flex;
+			align-i: center;
+		}
+		.nav{
+			font-size: 20px;
+			text-align: left;
+			padding-top: 120%;
+			flex-direction: column;
+			padding-left: 70%;
+			padding-right: 70%;
+			
+			
+			
+		}
+		img{
+			width: 15vh;
+			height: 60vh;
+		}
+		.container{
+			margin-top: 49%;
+			width: 100%;
+		}
+		.name{
+			font-size: 40px;
+			flex-direction: column;
+		}
+		.wow{
+			font-size: 15px;
+			flex-direction: column;
+			
+		}
+		.footer{
+			font-size: 12px;
+		
+			padding-right: 10%;
+			flex-grow: 1;
+			height: 9vh;
+		}
+		.beb{
+			font-size: 14px;
+		}
+		.hey{
+			font-size: 10px;
+		
+		}
+		
+		.love{
+			font-size: 10px;
+		}
+		
+	}
+	.bi{
+		background-color: #734C16;
+		font-color: #734C16;
+	
+	}
+		</style>	
+	</head> 
+
+	<body>
+		<div class = "header" id = "header">
+		<a href="project.html"class="bi"><button class="bi">Back</button></a>
+			<div class = "header2">
+				<div class="Logo">SHIDAH</div>
+			</div>
+			
+			<div class="nav">
+				<div class="nav1" style = "width: 90%">About Us</div>
+				<div class="nav1" style = "width: 10%">Contacts</div>
+			</div>
+			
+		</div>
+		
+		<div class="container">
+			<div class="item1">
+				<img src = "coffee.jpg"></img>
+			</div>
+			
+			<div class="item2">
+				<div class="name">Mucha Mocca</div>
+				<div class="wow">"But if we loved again I swear I'd love you right"</div>
+				
+			</div>
+		</div>
+		
+		<div class = "footer">
+			<div class="beb">Mucha Mocca</div>
+			<div class="hey">Copyright 2023 | Made by Norsidah Mantoyan</div>
+			<div class="contact">
+				<div class="love">#09513298648</div>
+				<div class="love">Fb:Norsidah Mantoyan</div>
+			</div>
+		</div>
+	</body>
+</html>

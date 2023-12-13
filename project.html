@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>Project</title>
+		<link rel="stylesheet" href="hello.css">
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="header">
+			   <div class="logo">SHIDAH</div>
+				<div class="nav1">
+					<div class="nav"><a href="#hm">Home</div>
+					<div class="nav"><a href="#ab">About</div>
+					<div class="nav"><a href="#pf">Portfolio</a></div>
+					<div class="nav"><a href="#cn">Contact</a></div>	
+						
+				</div>
+			</div>
+		</div>
+
+		
+		<div class="item1" id="hm">
+			<div class="circle"></div>
+			<div class="named" id="ab">
+				<div id="mytext" class="name">Creative</div>
+				<div id="dah"class="discription">I am Norsidah Mantoyan. I am 18 years old. I live in Cawayan, Marantao Lanao Del Sur. My hobbies are watching movies, playing online games, badminton and chess.</div>
+			</div>
+		</div>
+		
+		<button onclick="hide()" class="add">Login</button>
+			<div class="cc" id ="cc">
+				<div id="online" class="online">
+				  <div class="naame">
+				    <div class="naames">Name:</div>
+					<div class="naames">Description:</div>
+				  </div>
+				  <div class="naame">
+				    <input class="se" id="text" placeholder="Name"></input>
+					<input class="se" id="shids"placeholder="Description"></input>
+				  </div>
+				  <button onclick="change()" class="sub">Submit</button>
+				</div>
+			</div>
+		</div>
+		
+		<script>
+			function hide(){
+				let element = document.getElementById("cc");
+				element.style.display = (element.style.display == "none") ? "block":"none";
+			}
+			function change(){
+				let varname = document.getElementById("text").value;
+				document.getElementById("mytext").innerHTML = varname;
+				let varname2 = document.getElementById("shids").value;
+				document.getElementById("dah").innerHTML = varname2;
+			}
+		
+		</script>
+		
+		<div class="item2">
+			<div class="title">
+				<div class="title1">I Am Designer</div>
+				<div class="picture1"><img src="pic1.jpg" class="img1"></div>
+			</div>
+			<div class="title2">
+				<div class="picture2"><img src="pic.jpg" class="img1"></div>
+				<button class="title3">READ MORE</button>
+			</div>  
+		</div>
+		
+		<div class="titles">
+			<div class="titles1">
+				<div class="word">We</div>
+				<div class="word">Build</div>
+				<div class="word">Digital</div>
+			</div>
+			<div class="description3">
+				<div class="description">All this time I was wasting </div>
+				<div class="description"> hoping you would come around.</div>
+				<button class="title4">READ MORE</button>
+			</div>
+		</div>
+		
+		<div class="item3" id="pf">
+			<div class="design">We Design people inspired</div>
+			<div class="design">Experience that create positive</div>
+			<div class="design">change in people’s lives</div>
+		</div>
+		
+		<div class="empty">
+			<div class="empty1">
+				<div class="empty2"><a href="ems.html" target="_blank"><img src="coffee.jpg" class="proj"></a></div>
+				<div class="empty2"><a href="hi.html" target="_blank"><img src="proj2.png" class="proj"></a></div>
+				<div class="empty2"><a href="act.html" target="_blank"><img src="tweet.png" class="proj"></a></div>
+			</div>
+		
+			<div class="empty1">
+				<div class="empty2"><a href="fb.html" target="_blank"><img src="fb.png" class="proj"></a></div>
+				<div class="empty2"><a href="youtube.html" target="_blank"><img src="youtube.jpg" class="proj"></a></div>
+				<div class="empty2"><a href="spotify.html" target="_blank"><img src="spotify.png" class="proj"></a></div>
+			</div>
+		</div>
+		
+
+		<div class="item4">
+			<div class="brand">
+				<div class="brand2">
+					<div class="brand3"><span>BADMINTON</span></div>
+					<div class="brand3">I love playing badminton because it makes me feel energetic everyday.</div>
+				</div>
+				<div class="photo"><img src="badminton.jpg" class="photo1"></div>
+			</div>
+		
+			<div class="brand1">
+				<div class="brand2">
+					<div class="brand3"><span>CHESS</span></div>
+					<div class="brand3">I love playing chess because you can play it anywhere and challenging.</div>
+				</div>
+				<div class="photo"><img src="chess.jpg" class="photo1" id="photo"></div>		
+			</div>
+			<div class="brand1">
+				<div class="brand2">
+					<div class="brand3"><span>BOOKS</span></div>
+					<div class="brand3">I love reading books because it makes me feel the peace.</div>
+				</div>
+				<div class="photo3"><img src="books.jpg" class="photo3" id="photo3"></div>
+			</div>
+			<div class="brand1">
+				<div class="brand2">
+					<div class="brand3"><span>Mobile Legend</span></div>
+					<div class="brand3">I like playing mobile legends because it relaxes and calms my nerves.</div>
+				</div>
+				<div class="photo5"><img src="ml.jpg" class="photo5" id="photo5"></div>
+			</div>
+		</div>
+
+	    <div class="item5" id="cn">
+			<div class="contact">
+				<div class="contact1">
+					<div class="me"><span>Contact Me</span></div>
+					<div class="this">Let’s start a conversation</div>
+				</div>
+
+	  
+				<div class="contact2">
+					<div class="contact3"><span>Address:</span>
+						<div class="contact4">Bacolod Cawayan, Marantao, Lanao Del Sur</div>
+					</div>
+					<div class="contact3"><span>Contact Number:</span> 0995 477 4296</div>
+					<div class="contact3"><span>Email Address:</span> mantoyannorsidah@gmail.com</div>
+					<div class="contact3"><span>Website:</span> www.norsidah.com</div>    
+				</div>
+			</div>
+		</div>
+			
+	    <div class="item6">
+			<div class="img"><img src="meeting.jpg" class="imgs"></div>
+			<div class="login">
+				<div class="web"><input type="text" placeholder="Your Name"></div>
+				<div class="web"><input type="text" placeholder="Your Email"></div>
+				<div class="web"><input type="text" placeholder="Your Subject"></div>
+				<div class="web"><input type="text" placeholder="Message"></div>
+				<button class="send">Send Message</button>
+			</div>
+		</div>
+		
+		<div class="footer">
+			<div class="social">We want stay in touch with you! Please follow us on social media so we can keep</div>
+			<div class="social">in touch</div>
+			<div class="socmed">
+				<div class="media"><a href="https://www.facebook.com/shidahmantoyan123" target="blank"><img src="facebook.png" class="sm"></a></div>
+				<div class="media"><a href="https://www.twitter.com/nrsdh06" target="blank"><img src="twitter.png" class="sm"></a></div>
+				<div class="media"><a href="https://www.instagram.com/sh1dah" target="blank"><img src="instagram.png" class="sm"></a></div>
+				<div class="media"><img src="linkedin.png" class="sm"></div>
+				<div class="media"><img src="pinterest.png" class="sm"></div>
+			</div>
+		</div>
+		<div class="footer1">
+			<div class="footer2">
+				<div class="headline1">
+					<div class="sample">Headline</div>
+					<div class="sample">Sample</div>
+				</div>
+				
+				<div class="headline2">
+					<div class="sample">Headline</div>
+					<div class="sample">Sample</div>
+				</div>		
+				
+				<div class="headline3">
+					<div class="sample">Headline</div>
+					<div class="sample">Sample</div>
+				</div>
+			</div>
+			
+			<div class="footer3">Copyright © 2023 All Rights Reserved | Made by Norsidah Mantoyan</div>
+		</div>
+	</body>
+</html>

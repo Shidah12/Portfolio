@@ -1,0 +1,251 @@
+.container{
+	width:100%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	
+}
+.header{
+	margin-top:0%;
+	height: 10vh;
+	display: flex;
+	flex-direction: row;	
+}
+.Logo{
+	width: 3%;
+	height: 50px;
+	
+}
+.loogo{
+	width: 3%;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+}
+.logo{
+	flex-grow: 3;
+
+	font-family: Georgia;
+	font-size: 3vh;
+	font-weight: bold;
+	margin-top:1%;
+	display: flex;
+	flex-direction: row;
+}
+.nav1{
+	flex-grow: 2;
+
+	display: flex;
+	flex-direction: column;
+}
+.nav{
+	flex-grow: 3;
+	row-gap: 3;
+
+	font-family: Georgia;
+	font-size: 2vh;
+	margin-top: 2%;
+	padding-left: 2%;
+	padding: 3vh;
+	
+}
+.navv{
+	font-weight: bold;
+	margin-top: 2%;
+	
+}
+.type{
+	display: flex;
+	padding-right: 70%;
+	padding-left: 5px;
+	border-radius: 5px;
+	width: 20%;
+	height: 20px;
+	margin-top: 1%;
+	margin-left: 2vh;
+}
+.pic2{
+	border-radius: 90%;
+	width: 4%;
+	height:5vh;
+	background-image: url(sung.jpg)
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-top: 6px;
+}
+.box2{
+	flex-grow: 3;
+	height: 50vh;
+	background: white;
+	display: flex;
+	flex-direction: column;
+	
+}
+.more{	
+	font-size: 2vh;
+	font-weight: bold;
+	padding: 2vh;
+	display: flex;
+	flex-direction: column;
+	padding-right: 3vh;
+}
+.body{
+	display: flex;
+	flex-direction: row;
+}
+.huy{
+	display: flex;
+	flex-direction: row;
+}
+.mweh{
+	height: 50vh;
+	width: 70vh;
+	display: flex;
+	flex-direction: row;
+	padding-left: 1vh;
+	padding: 1px;
+	margin-top: 50px;
+	border-radius: 5px;
+}
+.mwehh{
+    height: 35vh;
+	width: 96vh;
+	display: flex;
+	flex-direction: row;
+	padding-left: 3vh;
+	border-radius: 10px;
+	margin-top: 50px;
+	
+}
+.haha{
+	height: 40vh;
+	width: 60vh;
+	display: flex;
+	flex-direction: row;
+	padding-left: 1vh;
+	padding: 1px;
+	margin-top: 40vh;
+	border-radius: 5px;
+	padding-left: 1vh;
+}
+.hahaha{
+	height: 45vh;
+	width: 62vh;
+	padding: 1px;
+	display: flex;
+	flex-direction: row;
+	border-radius: 10px;
+	margin-top: 40vh;
+	padding-left: 1vh;
+}
+.hayss{
+	height: 45vh;
+	width: 62vh;
+	padding: 1px;
+	display: flex;
+	flex-direction: row;
+	border-radius: 10px;
+	margin-top: 40vh;
+	padding-left: 1vh;
+}
+.opo{
+	height: 5vh;
+	width: 10vh;
+	padding: 5px;
+	margin-top: 2px;
+	border-radius: 5px;
+}
+.box3{
+	display: flex;
+	flex-direction: row;
+	border-radius: 10px;
+	margin-top: 150px;
+}
+.to{
+	display: flex;
+	flex-direction: column;
+	height: 120vh;
+	width: 100%;
+	border-radius: 5px;
+}
+.po{
+	height: 70vh;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	border-radius: 5px;
+}
+.jaren{
+	font-weight: bold;
+	font-size: 15px;
+	font-family: Georgia;
+	margin-left: 90vh;
+	margin-top: 1vh;
+	display: flex;
+	flex-direction: column;
+}
+.pic3{
+	border-radius: 90%;
+	width: 4%;
+	height:5vh;
+	background-image: url(pretty.jpeg)
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-top: 45vh;
+	margin-left: 80vh;
+	display: flex;
+	flex-direction: column;
+}
+.mm{
+	margin-top: 85vh;
+	width: 90%;
+	display: flex;
+	border-radius: 10px;	
+	height: 45vh;
+}
+.sa{
+	width: 100%;
+	height: 70vh;
+	display: flex;
+	flex-direction: row;
+	
+}
+.de1{
+	font-family: Georgia;
+	font-size: 15px;
+	margin-left: 7%;
+	margin-top: 1vh;
+	font-weight: bold;
+}
+.se1{
+	font-family: calibri;
+	font-size: 15px;
+	margin-left: 7%;
+	margin-top: 0.5vh;
+}
+.mm1{
+	margin-top: 85vh; 
+	display: flex;
+	border-radius: 10px;
+	height: 45vh;
+	padding-right: 10px;
+	
+}
+.haha{
+	margin-top: 40vh;
+	width: 90%;
+	display: flex;
+	border-radius: 10px;	
+	height: 45vh;
+}
+.oo{
+	width: 100%;
+	height: 70vh;
+	display: flex;
+	flex-direction: row;
+	
+}
+
+	

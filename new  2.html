@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Madid</title>
+	</head>
+
+<body>
+	<div id="mytext">Hi</div> 
+	<input type="txt" id="txt" placeholder="Enter text here">
+	<button onclick="change()"> Change</button>
+	
+	<script>
+		function change(){
+			let varname = document.getElementById("txt").value;
+			document.getElementById("mytext").innerHTML = varname;
+	}
+	</script>
+</body>
+
+

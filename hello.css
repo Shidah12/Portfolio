@@ -1,0 +1,506 @@
+.container{
+	/*height:100vh;*/
+	width:100%;
+}
+
+.header{
+	background-color:pink;
+	padding:1%;
+	height: 10vh;
+	display:flex;
+	border: 2px solid black;
+}
+
+.logo{
+	flex-grow: 3;
+
+	font-family: Georgia;
+	font-size: 3em;
+	margin-top: 1%;
+}
+
+.nav1{
+	flex-grow: 1;
+
+	display: flex;
+	flex-direction: row;
+}
+
+.nav{
+	flex-grow: 2;
+	row-gap: 3;
+
+	font-family: Georgia;
+	font-size: 1.5em;
+
+	margin-top: 8%;
+}
+
+.nav a{
+	text-decoration: none;
+	color: black;
+}
+
+.nav a:hover{
+	color: hotpink;
+}
+
+.item1{
+	height:90vh;
+	/*width:100%;*/
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	text-align:center;
+	align-item: center;
+}
+
+.circle{
+	background-color: blue;
+	height:300px;
+	width: 300px;
+	/*margin-top: 2%;*/
+	border-radius: 100%;
+	margin-left: 39%;
+	background-image:url(shida.jpg); 
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid black;
+}
+
+.named{
+	display:flex;
+	flex-direction:column;
+	margin-top: 2%;
+}
+
+.name{
+	font-size:50px;
+	font-family:Georgia;
+}
+
+.discription{
+	width:50%;
+	/*height:2vh;
+	display: flex;
+	justify-content:center;
+	align-item:center;
+	text-align:center;
+	flex-direction:column;*/
+	margin-top:1%;
+	margin-left:25%;
+	margin-right:45%;
+
+	font-family: Georgia;
+	font-size: 20px;
+}
+
+.item2{
+	height:30vh;
+	display:flex;
+	flex-direction:row;
+	margin-left: 15%;
+	margin-top: 10%;
+}
+
+.title{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 0.5;
+	
+}
+
+.title2{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.img1{
+	height: 350px;
+	width: 420px;
+}
+
+.title1{
+	font-family: Georgia;
+	font-size: 2em;
+	
+}
+
+.title3{
+	background-color: pink;
+	border: 1px solid black;
+	width: 20%;
+	height: 10px;
+
+	padding: 3%;
+	margin-top: 1%;
+
+	text-align: center;
+}
+
+.titles{
+	display: flex;
+	flex-direction: row;
+
+	margin-top: 30%;
+	padding-left: 15%;
+}
+
+.titles1{
+	flex-grow: 1;
+}
+
+.word{
+	font-family: Georgia;
+	font-size: 5em;
+	text-align: right;
+}
+
+.description3{
+	flex-grow: 2;
+	padding-left: 5%;
+	padding-top: 1%;
+
+	font-family: Georgia;
+	font-size: 1em;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.description{
+	margin-top: 3%;
+
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+.title4{
+	margin-top: 15%;
+
+	background-color: pink;
+	border: 1px solid black;
+	width: 20%;
+
+	padding: 1%;
+
+	text-align: center;
+}
+
+.item3{
+	margin-top: 15%;
+	text-align: center;
+	font-family: georgia;
+	font-size: 40px;
+}
+
+.empty{
+	display: flex;
+	flex-direction: column;
+
+	height: 90vh;
+	width: 150vh;
+	background: pink;
+
+	margin-top: 10%;
+	margin-left: 15%;
+}
+
+.empty1{
+	flex-grow: 1;
+	display: flex;
+	flex-direction: row;
+
+	border: 3px solid white;
+}
+
+.empty2{
+	flex-grow: 1;
+	border: 3px solid white;
+	padding-left: 3%;
+	padding-top: 2%;
+
+	font-family: Georgia;
+}
+
+.empty2 a:hover{
+	opacity: 0.5;
+}
+
+.empty2 img{
+	border: 1px solid black;
+}
+
+.proj{
+	height: 250px;
+	width: 250px;
+}
+
+.ph1{
+	height: 100px;
+	width: 100px;
+}
+
+.item4{
+	display: flex;
+	flex-direction: column;
+
+	margin-top: 10%;
+	margin-left: 10%;
+}
+
+.brand{
+	display: flex;
+	flex-direction: row;
+}
+
+.brand1{
+	display: flex;
+	flex-direction: row;
+}
+.photo1{
+	height: 300px;
+	width: 400px;
+	
+	margin-right: 9px;
+}
+
+.photo{
+	margin-left: 39%;
+}
+
+#photo{
+	margin-left: 1%;
+}
+.photo3{
+	margin-left: 21.5vh;
+	height: 300px;
+	width: 400px;
+	margin-top: 1px;
+}
+.photo5{
+	margin-top: 2px;
+	margin-left: 13.5vh;
+	height: 300px;
+	width: 400px;
+	
+	
+}
+.brand2{
+	font-family: Georgia;
+	font-size: 1.5em;
+	
+	padding-top: 40px;
+	
+}
+.brand3{
+	font-family: Georgia;
+	font-size: 20px;
+	
+	padding-top: 5%;
+
+}
+.item5{
+	margin-top: 10%;
+
+	display: flex;
+	flex-direction: column;
+
+	text-align: center;
+}
+
+.contact2{
+	display: flex;
+	flex-direction: row;
+}
+
+.contact3{
+	flex-grow: 2;
+
+	margin-top: 3%;
+	background-color: pink;
+	border: 10px solid white;
+	padding: 5%;
+
+	font-family: Georgia;
+	font-size: 1em;
+}
+
+span{
+	font-weight: bold;
+}
+
+.me{
+	font-family: Georgia;
+	color: black;
+	font-size: 40px;
+}
+
+.this{
+	font-family: Georgia;
+	font-size: 1em;
+}
+
+.item6{
+	display: flex;
+	flex-direction: row;
+
+	margin-top: 5%;
+}
+
+.img{
+	margin-left: 20%;
+}
+
+.imgs{
+	height: 350px;
+	width: 450px;
+}
+
+.login{
+	/*margin-right: 45%;*/
+}
+
+.web{
+	padding-top: 5%;
+	margin-top: 5%;
+	margin-left: 30%;
+	
+}
+
+input{
+	padding: 5%;
+}
+
+.send{
+	margin-left: 41%;
+	margin-top: 5%;
+
+	background-color: pink;
+	border: 1px solid black;
+	border-radius: 30px;
+	width: 80%;
+
+	padding: 3%;
+
+	text-align: center;
+}
+
+.footer{
+	background-color: pink;
+
+	padding: 10%;
+	margin-top: 10%;
+}
+
+.social{
+	text-align: center;
+	font-family: Georgia;
+	font-size: 1.5em;
+}
+
+.socmed{
+	display: flex;
+	flex-direction: row;
+
+	margin-top: 10%;
+	margin-left: 5%;
+}
+
+.media{
+	flex-grow: 1;
+}
+
+.media a:hover{
+	opacity: 0.5;
+}
+
+.sm{
+	height: 80px;
+	width: 80px;
+}
+
+.footer1{
+	display: flex;
+	flex-direction: column;
+
+	background-color: lightpink;
+	padding: 3%;
+}
+
+.footer2{
+	display: flex;
+	flex-direction: row;
+
+	margin-left: 5%;
+	border-bottom: 1px solid black;
+}
+
+.headline1{
+	flex-grow: 1;
+}
+
+.headline2{
+	flex-grow: 1;
+}
+
+.headline3{
+	flex-grow: 1;
+}
+
+.sample{
+	font-family: Georgia;
+	font-size: 1.5em;
+}
+
+.footer3{
+	margin-top: 5%;
+	text-align: center;
+
+	font-family: Georgia;
+	font-size: 1em;
+}
+.add{
+	margin-left: 50%;
+	background-color: pink;
+	border: 1px solid black;
+	
+}
+.naame{
+	display: flex;
+	flex-direction: column;
+	margin-top: 1%;
+	margin-right: 35%;
+}
+.online{
+	display: flex;
+	flex-direction: row;
+	padding: 5%;
+}
+.sub{
+	height: 3vh;
+	margin-top: 3%;
+	width: 7%;
+	boder-radius: 5px;
+	margin-left: -30%;
+	background-color: pink;
+	border: 1px solid black;
+	
+}
+.se{
+	width: 100%;
+	height: ;
+	margin-top: 1%;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 10%;
+}
+.naames{
+	padding: 12%;
+	margin-right: 30%;
+	padding-left: 500%;
+	
+}
